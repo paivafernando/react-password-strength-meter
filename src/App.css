@@ -1,0 +1,56 @@
+.app-container {
+  width: 100%;
+  max-width: 480px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.app-container h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #0e141e;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #9faec0;
+  border-radius: 2px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.input-container input:focus {
+  border-color: #097bed;
+}
+
+.strength-container {
+  margin-top: 16px;
+}
+
+.strength-segments {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.segment {
+  flex: 1;
+  height: 6px;
+  background-color: #e2e8f0;
+  border-radius: 2px;
+  transition: background-color 0.2s ease;
+}
+
+[data-testid="strength-label"] {
+  font-size: 13px;
+  font-weight: 600;
+  text-align: right;
+  min-height: 18px;
+  margin: 0;
+}
